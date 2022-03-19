@@ -1,5 +1,9 @@
 {
 	"name": "fcc-learn-node-with-express",
+	"author": "Gouri Prasad M",
+	"description": "My first project in Free code camp's Back end development course",
+	"keywords":["learning","backend","project","freecodecamp"],
+	"license": "noneasofnow",
 	"version": "0.1.0",
 	"dependencies": {
 		"express": "^4.14.0",
