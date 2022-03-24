@@ -2,13 +2,19 @@
 	"name": "fcc-learn-node-with-express",
 	"author": "Gouri Prasad M",
 	"description": "My first project in Free code camp's Back end development course",
-	"keywords":["learning","backend","project","freecodecamp"],
+	"keywords": [
+		"learning",
+		"backend",
+		"project",
+		"freecodecamp"
+	],
 	"license": "noneasofnow",
 	"version": "0.1.0",
 	"dependencies": {
-		"express": "^4.14.0",
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
+		"dotenv": "^16.0.0",
+		"express": "^4.14.0",
 		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
 	},
 	"main": "server.js",
