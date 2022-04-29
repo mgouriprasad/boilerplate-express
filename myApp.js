@@ -9,9 +9,9 @@ var l_init = "hello json";
 console.log(process.env.MESSAGE_STYLE);
 if (process.env.MESSAGE_STYLE === "uppercase")
 {
-    l_hello = l_init.toUpperCase();
+    l_message = l_init.toUpperCase();
 } else {
-    l_hello = l_init;
+    l_message = l_init;
 }
 app.get('/', (req, res) => { res.json({message:l_message})});
 
