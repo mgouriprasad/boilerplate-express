@@ -12,7 +12,7 @@ if (process.env.MESSAGE_STYLE=="uppercase")
     l_hello=l_hello.toUpperCase();
     console.log(l_hello);
 } 
-console.log({message:l_hello});
+console.log({"message":'l_hello'});
 app.get('/json', (req, res) => {res.json({ message :l_hello})});
 
 
